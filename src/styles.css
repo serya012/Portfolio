@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #808080;
+}
+::-webkit-scrollbar {
+  width: 9px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o "rastreio" da barra de rolagem (a parte que se move) */
+::-webkit-scrollbar-thumb {
+  background-color: #6A0DAD; /* Cor de fundo da barra de rolagem */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilizando a área ao redor da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #808080; /* Cor de fundo da área ao redor da barra de rolagem */
+}
+
+/* Estilizando os botões de seta (apenas no Internet Explorer) */
+/* A propriedade scrollbar-arrow-color é não-padrão e específica para o Internet Explorer */
