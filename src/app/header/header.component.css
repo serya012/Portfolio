@@ -1,0 +1,36 @@
+/* Mantenha as definições de estilo do cabeçalho */
+header {
+  
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: left;
+  z-index: 100;
+}
+
+/* Adicione um novo estilo para a parte esquerda do cabeçalho */
+.header-left {
+  display: inline-block;
+}
+
+/* Ajuste o estilo dos itens do menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  color: #808080;
+  font-size: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
